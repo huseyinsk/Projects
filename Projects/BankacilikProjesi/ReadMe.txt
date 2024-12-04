@@ -1,0 +1,1 @@
+mainBankacilik.py dosyası ana bankacılık dosyasıdır. Bu dosyadan işlem yapınız 
