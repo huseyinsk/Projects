@@ -1,4 +1,4 @@
-## Öğrenci giriş işlevi gören python uygulaması
+## Yetkili giriş işlevi gören python uygulaması
 from veriDosyalari.hesaplarDB import yetkili_tcNO
 
 def yetkiliGiris():
