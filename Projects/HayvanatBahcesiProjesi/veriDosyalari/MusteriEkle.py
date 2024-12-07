@@ -5,15 +5,16 @@ def musteriEkle():
     ad = input("Lütfen adını giriniz: ").upper()
     soyad = input("Lütfen Soyadını giriniz: ").upper()
     sifre = input("Lütfen kullanmak istediğiniz şifreyi giriniz: ")
-    
-    print(f"HS Hayvanat Bahçesine hoş geldiniz sayın {ad} {soyad}.")
+    bakiye = 0
+    print(f"HS Hayvanat Bahçesine hoş geldiniz sayın {ad} {soyad}."
+         +"Güncel bakiyeniz: 0 TL'dir")
     print(f"Şifreniz {sifre}'dir.\nSizi aramızda görmekten minnettarız !")
     sozluk[tc] = {}
-
     bilgiler = sozluk[tc]
-    def bilgiEkle(ad,soyad,sifre): 
+    def bilgiEkle(ad,soyad,sifre,bakiye): 
         bilgiler["AD"] = ad
         bilgiler["SOYAD"] = soyad
         bilgiler["SIFRE"] = sifre
+        bilgiler["BAKIYE"] = 0
 
     bilgiEkle(ad,soyad,sifre)
